@@ -195,6 +195,10 @@ p{
     display: flex;
 }
 
+#contact .map {
+    background: url('../img/map.jpg')no-repeat center center/cover;
+}
+
 #contact .map, #contact .contact-form {
     flex:1;
 }
