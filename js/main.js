@@ -1,12 +1,3 @@
-function initMap() {
- const loc = {lat: 22.718670, lng: 75.855713 }
- const map = new google.maps.Map(document.querySelector(".map"), {
-    zoom: 14,
-    center: loc
-  });
-  const marker = new google.maps.Marker({position: loc, map:map});
-}
-
 window.addEventListener('scroll', function() {
     if(window.scrollY > 150) {
         document.querySelector('#navbar').style.opacity = 0.9;
